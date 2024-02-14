@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Source="c:\users\user\source\repos\wpfapp2\wpfapp2\wild_animals\i.webp"/>
+
+        <TextBox Text="Коса́тка (лат. Orcinus orca) — вид китообразных из семейства дельфиновых (дельфинов) парвотряда зубатых китов. Единственный современный представитель рода косаток. Признан самым крупным представителем своего семейства и единственный среди современных китообразных настоящий хищник, преследующий теплокровных животных." Grid.Row="1" TextWrapping="Wrap"/>
+        <TextBox Text="Европейский удильщик, или европейский морской чёрт (лат. Lophius piscatorius), — хищная рыба отряда удильщикообразных. Название «морской чёрт» этот вид получил из-за очень непривлекательной внешности. Распространён в восточной части Атлантического океана." Grid.Column="1" TextWrapping="Wrap" Grid.Row="1"/>
+        <Image Source="/wild_animals/ocr.jpg" Grid.Column="1"/>
+        <Image Source="/wild_animals/download.jpg" Grid.Column="2" />
+        <TextBox Text="Колибри — маленькие птицы. Размеры представителей семейства варьируют от 5 до 22 см. Большинство видов имеют средний размер 6—12 см и массу тела 2,5—6,5 г (по другим данным, 3—7 г). Самые лёгкие колибри — краснобрюхий солнечный колибри (Phaethornis ruber) из Гайаны и Бразилии и колибри-пчёлка (Mellisuga helenae) с Кубы — весят 1,6—1,9 г, а самый тяжёлый — исполинский колибри (Patagona gigas) — 19—21 г (по другим данным, 18—20 г. " Grid.Row="2" Grid.Column="2" TextWrapping="Wrap"/>
+
+
+    </Grid>
+</Window>
